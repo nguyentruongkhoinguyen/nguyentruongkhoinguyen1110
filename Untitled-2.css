@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding: 0px; 
+	margin: 0px;
+box-sizing: border-box;}
+.header {
+	background-color:white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 135px;
+font-size: 20px;
+font-style: normal;
+}
+.backgroundimg{
+	object-fit: contain;
+}
+.header ul{
+	display: flex;
+	width: 40%;
+	justify-content: space-between;
+	font-size: 20px
+}
+.animation1{
+	background-color: black;
+	padding: 10px 20px;
+	color: white;
+	transition: 0.7s;
+}
+.animation1:hover{
+	background-color:#3e8e41;
+	color:white;
+	border-radius:200px;
+	box-shadow: 0px 1px 32px 0px rgba(0, 0, 0, 0.3);
+}
+.chumauxanh {
+	color: #3e8e41;
+	font-weight: bold;
+}
+.chumauxanh:hover{
+	border-radius:20px;
+	transition:0.7s;
+}
+.Noidung1 {
+	background-image: url("Self-Portrait-artist-panel-board-Vincent-van-Gogh-1887.webp");
+	object-fit: fill;
+}
+.pnd1 h1{
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+	width: 446px;
+}
+.pnd1 p{
+	color: #4F565E;
+font-size: 18px;
+font-style: normal;
+	width: 486px;
+}
+.headnd2 h1{
+	color: #020C16;
+text-align: center;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+}
+.headnd2 p{
+	color: #4F565D;
+text-align: center;
+	width: 455px;
+	margin :0 auto;
+	padding: 10px;
+}
+.box {
+	display: flex;
+	justify-content: space-between;
+	padding: 72px 135px;
+	text-align: center;
+}
+.box h3{
+	padding: 30px;
+	padding-bottom: 0px;
+}
+.box p{
+	width: 370px;
+	padding: 30px;
+	padding-top: 15px;
+}
+.box a{
+	width: 176px;
+	border-color: #1786FA;
+	border: 0.5px solid;
+	padding: 10px 50px;
+}
+.noidung2 {
+	padding-top: 100px;
+}
+.box1 {	
+	padding: 30px 0px;
+	background-color:white;
+	transition: 0.7s;
+	
+}
+.box1:hover{
+	box-shadow: 0px 16px 32px 23px rgba(10, 130	, 20, 0.3);
+	border-radius: 20px;
+	background-color:#FBFBFB;
+	color:forestgreen;
+}
+.box1:hover a{
+	background-color:#3e8e41;
+	color: white;
+	
+}
+.cate p{
+	color: #4F565D;
+	padding: 20px 135px 70px;
+}
+.cate h1{
+font-size: 38px;
+	font-weight: bold;
+	padding: 170px 135px 0px;
+}
+.image{
+	padding: 0px 135px 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.property {
+	background-color: #F5FAFF;
+}
+.price {
+	display: flex;
+	justify-content: space-between;
+	padding: 70px 135px 20px;
+}
+.header imagesize{
+max-width: 400px;
+height: auto;
+}
+.img1 {
+ width:330px;
+}
+.img2{
+width:330px;
+}
+.img3{
+	width:330px;
+}
+.marquee{
+	background:#3e8e41;
+	font-size:45px;
+	color:white;
+}
+
+.click{
+border: none;
+  outline: none;
+  padding: 1px 5px;
+  background-color: white;
+  cursor: pointer
+}
+.click:hover{
+	color:white;
+	background-color:darkseagreen;
+		border-radius: 40%
+}
+.trang2 h1 {
+color: forestgreen;
+	background: white;
+text-align: center;
+	font-size:100px;
+    
+}.trang2{
+	text-align: center;
+	padding: 50px
+}
+.trang2 a{
+	font-size:20px;
+	line-height: 5;
+	padding: 15px 20px;
+	background-color: black;
+	color:white;
+}
+.trang2 a:hover{
+	background-color:#3e8e41;
+	color:white;
+	border-radius: 20px;
+	transition: 0.3s;
+	box-shadow: 0px 1px 32px 0px rgba(0, 0, 0, 0.3);
+}
+.hover1 {
+	font-weight: 900px;
+}
+.anh3{
+	
+}
+.trang3{
+	background-image: url("van-gogh-1663090__340.jpg");
+	object-fit: contain;
+	padding:100px;
+}
